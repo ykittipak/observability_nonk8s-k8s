@@ -1,0 +1,14 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "name": "environments/tempo",
+    "namespace": "environments/tempo/main.jsonnet"
+  },
+  "spec": {
+    "apiServer": "https://172.16.15.129:6443",
+    "namespace": "tempo",
+    "resourceDefaults": {},
+    "expectVersions": {}
+  }
+}
